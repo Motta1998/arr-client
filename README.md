@@ -1,6 +1,7 @@
 # Arr Client
 
 [![Flutter CI](https://github.com/Nicktronix/arr-client/actions/workflows/ci.yml/badge.svg)](https://github.com/Nicktronix/arr-client/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/Nicktronix/arr-client/branch/main/graph/badge.svg)](https://codecov.io/gh/Nicktronix/arr-client)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Flutter](https://img.shields.io/badge/Flutter-3.38.5-02569B?logo=flutter)](https://flutter.dev)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-brightgreen)]()
